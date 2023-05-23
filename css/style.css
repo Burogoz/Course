@@ -1,0 +1,264 @@
+@font-face {
+  font-family: "Graphik LCG";
+  src: url("../fonts/GraphikLCG-Medium.woff2") format("woff2"),
+    url("../fonts/GraphikLCG-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Regular.woff2") format("woff2"),
+    url("../fonts/Gilroy-Regular.woff") format("woff");
+  font-display: swap;
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"),
+    url("../fonts/Gilroy-ExtraBold.woff") format("woff");
+  font-display: swap;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../fonts/Gilroy-Medium.woff2") format("woff2"),
+    url("../fonts/Gilroy-Medium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Gilroy", sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.table {
+  margin-bottom: 0;
+}
+.main-content {
+  /* Блочная модель */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  /* Оформление */
+  background-color: #222020;
+}
+
+.link-skillbox {
+  /* Блочная модель */
+  margin-bottom: 30px;
+
+  /* Типографика */
+  font-family: "GraphikLCG", sans-serif;
+  color: #fff;
+}
+.link-download-more {
+  /* Блочная модель */
+  display: flex;
+  flex-direction: row;
+}
+
+.link-download {
+  /* Блочная модель */
+  padding: 20px;
+  border: 3px solid #2f1ce4;
+
+  /* Типографика */
+  color: #fff;
+
+  /* Оформление */
+  background-color: #2f1ce4;
+}
+
+.link-more {
+  /* Блочная модель */
+  padding: 20px;
+  border: 3px solid #fff;
+
+  /* Типографика */
+  color: #fff;
+
+  /* Оформление */
+  background-color: rgba(119, 119, 119, 0);
+}
+.container {
+  /* Блочная модель */
+  width: 1170px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.button-return {
+  /* Блочная модель */
+  padding-left: 25px;
+
+  /* Оформление */
+  background-image: url("/3/img/return.png");
+  background-position: left center;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+}
+
+.title-info {
+  /* Блочная модель */
+  margin-top: 100px;
+  padding-left: 100px;
+
+  /* Типографика */
+  font-size: 48px;
+  color: #222020;
+}
+
+.blue-title {
+  /* Блочная модель */
+  margin: 100px 0 25px 0;
+  padding-left: 180px;
+
+  /* Типографика */
+  font-size: 36px;
+  color: #2f1ce4;
+}
+
+.list-item {
+  /* Блочная модель */
+  padding-left: 200px;
+
+  /* Типографика */
+  font-size: 18px;
+}
+
+.text-item {
+  /* Блочная модель */
+  padding-left: 180px;
+  margin-bottom: 20px;
+}
+.figure-item {
+  /* Блочная модель */
+  padding-left: 200px;
+  display: inline-block;
+  margin: 50px 0 50px 0;
+  text-align: center;
+}
+
+table,
+td,
+th,
+thead {
+  /* Блочная модель */
+  margin-top: 100px;
+  border: 1px solid #000;
+}
+table {
+  /* Блочная модель */
+  border-collapse: collapse;
+}
+th,
+td {
+  /* Блочная модель */
+  padding: 5px;
+}
+.button-more-progmram {
+  margin-top: 40px;
+  background-color: #fff;
+  border: 3px solid #2f1ce4;
+  border-radius: 2px;
+  padding: 25px 65px;
+  font-size: 18px;
+  color: #2f1ce4;
+}
+.body-modules {
+  background-image: url("/3/img/line1.png");
+  width: 1920px;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+.modules-skillbox {
+  font-family: "Graphik LCG";
+  font-size: 40px;
+}
+.container-modules {
+  width: 1920px;
+  height: 2261px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 auto;
+  padding-left: 350px;
+  padding-right: 450px;
+}
+.curse-modules {
+  padding-left: 20px;
+}
+.name-modules {
+  padding-bottom: 85px;
+  padding-top: 100px;
+  padding-left: 60px;
+  font-size: 48px;
+  color: #222020;
+}
+.list-modules {
+  width: 1300px;
+  display: inline-block;
+  list-style: none;
+}
+.card-modules {
+  display: inline-block;
+  height: 505px;
+  width: 480px;
+  box-shadow: 1px 1px 18px rgb(0, 0, 0, 0.31);
+  margin-right: 60px;
+  margin-bottom: 50px;
+  vertical-align: middle;
+  position: relative;
+}
+.name-lesson-modules {
+  color: #2f1ce4;
+  margin-left: 50px;
+}
+.lesson-modules {
+  list-style: none;
+  margin-left: 10px;
+}
+.item-lessons-modules:not(:last-child) {
+  margin-bottom: 20px;
+}
+.number-modules {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 48px;
+  color: #eaeaea;
+}
+.button-more-modules-center {
+  text-align: center;
+}
+.button-more-modules {
+  background-color: #fff;
+  border: 3px solid #2f1ce4;
+  border-radius: 2px;
+  padding: 25px 65px;
+  font-size: 18px;
+  color: #2f1ce4;
+}
+.line-modules {
+  margin-top: 0;
+}
